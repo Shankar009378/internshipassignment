@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { handleError, handleSuccess } from '../utils';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import '/Users/shankarkumarnanda/Desktop/deploy-mern-app-1-main/frontend/src/Home.css';
+import '../Home.css';
 
 function Home() {
     const [loggedInUser, setLoggedInUser] = useState('');
